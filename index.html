@@ -6,6 +6,7 @@
     <title>Mi Portafolio</title>
     <link rel="stylesheet" href="styles.css">
 </head>
+<script src="script.js"></script>
 <body>
 
     <header>
@@ -17,22 +18,26 @@
         </nav>
     </header>
 
-    <section>
-        <h2>Sobre mí</h2>
-        <p>
-            Soy un joven de 21 años que reside en la cidudad de Medellin, me gusta el aprendizaje de nuevas tecnologias 
-            y aprender nuevas formas de hacer las cosas
-        </p>
-    </section>
+<section>
+    <h2>Sobre mí</h2>
+    <p id="textoSobreMi">
+        Soy un joven de 21 años que reside en la ciudad de Medellín,
+        me gusta el aprendizaje de nuevas tecnologías y aprender nuevas formas de hacer las cosas.
+    </p>
+    <button id="btnCambiar">Cambiar texto</button>
+</section>
 
-    <section>
-        <h2>Proyectos</h2>
-        <ul>
-            <li><a href="#">Proyecto 1</a></li>
-            <li><a href="#">Proyecto 2</a></li>
-            <li><a href="#">Proyecto 3</a></li>
-        </ul>
-    </section>
+
+<section>
+    <h2>Proyectos</h2>
+    <button id="btnToggle">Mostrar / Ocultar proyectos</button>
+    <ul id="listaProyectos" class="proyectos">
+        <li><a href="#">Proyecto 1</a></li>
+        <li><a href="#">Proyecto 2</a></li>
+        <li><a href="#">Proyecto 3</a></li>
+    </ul>
+</section>
+
 
     <section>
         <h2>Contacto</h2>
